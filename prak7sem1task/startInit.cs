@@ -127,10 +127,6 @@ namespace prak7sem1task
                 + Math.Pow(x6 - 6 * x1, 4) 
                 + Math.Pow(x1 - 2, 4)
                 );
-
-            //Rosenbrock (dont work for gradient!)
-            /*result = (1 - x) * (1 - x);
-            result += 100 * Math.Pow(x - y * y , 2);*/
             return result;
         }
 
